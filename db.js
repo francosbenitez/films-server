@@ -3,8 +3,8 @@ const Sequelize = require("sequelize");
 const FilmModel = require("./models/films")
 const UserModel = require("./models/users")
 
-const sequelize = new Sequelize("films", "admin", "12345678", {
-    host: "my-budget-db.cfd0h5xpluom.us-east-2.rds.amazonaws.com",
+const sequelize = new Sequelize("films", "admin", "KtX26zKb", {
+    host: "films-db.cfd0h5xpluom.us-east-2.rds.amazonaws.com",
     dialect: "mysql"
   });
 
